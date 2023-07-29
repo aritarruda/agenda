@@ -1,7 +1,7 @@
-import  Mongoose  from "mongoose";
+import  mongoose  from "mongoose";
 
-Mongoose.connect(
-    "mongodb+srv://admin:<password>@anarita.lqarr9u.mongodb.net/?retryWrites=true&w=majority"
+mongoose.connect(
+    "mongodb+srv://admin:ana123@cluster0.cwq5fha.mongodb.net/agenda"
 
 );
 
@@ -11,4 +11,3 @@ export default db;
 
 
 
-//mongodb+srv://admin:<password>@anarita.lqarr9u.mongodb.net/?retryWrites=true&w=majority
