@@ -5,6 +5,6 @@ const port = 2727;
 
 app.listen(port, () => {
     console.log(
-        chalk.blue.bgGreen.bold(`servidor esta rodando na porta , ${port}`)
+        chalk.red.bgYellow.bold(`servidor esta rodando na porta , ${port}`)
     );
 });

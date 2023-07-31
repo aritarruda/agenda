@@ -8,11 +8,11 @@ const app = express();
 
 app.use(json());
 app.use("/",index);
-app.use("/lista",listas);
+app.use("/contato",listas);
 
 db.on("erro",console.log.bind(console, "errode conexao"));
 db.once("open",() => {
-    console.log(chalk.blue.bgGreen.bold("conexao com o banco feita com sucesso"));
+    console.log(chalk.red.bgYellow.bold("conexao com o banco feita com sucesso"));
 });
 
 export default app;
